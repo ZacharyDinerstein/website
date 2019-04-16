@@ -1,3 +1,18 @@
+# Personal Portfolio Readme
+
+* Site URL: https://zacharydinerstein.github.io/website/
+* Github: https://github.com/ZacharyDinerstein/portfolio
+
+* How to deploy changes to the live site:
+1. Clone the github repo
+2. Open the repo using a text editor
+3. Make changes
+4. Commit those changes and push them to the Master branch on Github. 
+5. That's it! The changes will now be viewable on the live site. (May take a few minutes for them to appear.)
+
+
+
+# Start Bootatrap Read Me
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
 [Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
