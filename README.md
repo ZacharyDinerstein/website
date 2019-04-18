@@ -11,6 +11,15 @@
 5. That's it! The changes will now be viewable on the live site. (May take a few minutes for them to appear.)
 
 
+* How to update the css file using SASS
+1. In Terminal, CD into the root folder of the project
+2. type the command "sass --watch sass:css"
+3. In the program, edit any of the SASS files within the folder named "scss"
+4. The changes will now apear within in the css folder AND appear on the site. 
+
+
+
+
 
 # [Start Bootstrap Readme - Agency](https://startbootstrap.com/template-overviews/agency/)
 
