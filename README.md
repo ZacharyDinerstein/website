@@ -1,7 +1,7 @@
 # Personal Portfolio Readme
 
 * Site URL: https://zacharydinerstein.github.io/website/
-* Github: https://github.com/ZacharyDinerstein/portfolio
+* Github: https://github.com/ZacharyDinerstein/portfolio--zack-dinerstein-web-development
 
 * How to deploy changes to the live site:
 1. Clone the github repo
