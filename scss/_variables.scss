@@ -16,3 +16,25 @@ $gray-900: #212529 !default;
 $black: #000 !default;
 
 $primary: #fed136 !default;
+
+
+/* COLORS */
+$white: #fafafa;
+$white-hover: #e9e9e9;
+$black: #111;
+
+
+/*Gradients*/
+$gradient: linear-gradient(141deg, #3690ff 0%, #8383ff 100%);
+$background-gradient: linear-gradient(to right, rgb(82, 71, 99) 0%, rgb(55, 49, 66) 100%);
+
+/*SHADOWS*/
+$light-box-shadow: rgba(10, 10, 10, 0.2);
+
+
+/*FONTS*/
+$title-font: 'Roboto', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+/*POLYGON*/
+$main-img-slant: polygon(0% 0%, 100% 0, 100% 91%, 0 100%);

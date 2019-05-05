@@ -1,3 +1,8 @@
+/* COLORS */
+/*Gradients*/
+/*SHADOWS*/
+/*FONTS*/
+/*POLYGON*/
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -36,9 +41,6 @@ section {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0; } }
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -207,7 +209,7 @@ header.masthead {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: #fff; }
+    background-color: #fafafa; }
     #portfolio .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none;
@@ -422,7 +424,7 @@ header.masthead {
   .team-member img {
     width: 225px;
     height: 225px;
-    border: 7px solid #fff; }
+    border: 7px solid #fafafa; }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -436,7 +438,7 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
-    color: #fff; }
+    color: #fafafa; }
   section#contact .section-subheading {
     color: white; }
   section#contact .form-group {
