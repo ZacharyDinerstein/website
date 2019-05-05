@@ -22,6 +22,8 @@ $primary: #fed136 !default;
 $white: #fafafa;
 $white-hover: #e9e9e9;
 $black: #111;
+$gray-background: #d9d9d970;
+$light-box-shadow: rgba(10, 10, 10, 0.2);
 
 
 /*Gradients*/
@@ -29,7 +31,11 @@ $gradient: linear-gradient(141deg, #3690ff 0%, #8383ff 100%);
 $background-gradient: linear-gradient(to right, rgb(82, 71, 99) 0%, rgb(55, 49, 66) 100%);
 
 /*SHADOWS*/
-$light-box-shadow: rgba(10, 10, 10, 0.2);
+$box-shadow: 1.5px 1.5px 7px $light-box-shadow;
+
+/*BOX MODEL*/
+$border-radius: 3px;
+$border-radius--portfolio-item: $border-radius $border-radius 0px 0px;
 
 
 /*FONTS*/
