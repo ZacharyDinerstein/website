@@ -1,14 +1,8 @@
 // Styling for the portfolio section
 #portfolio {
-  &.portfolio-section {
-    background-color: $gray-background;
-  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
-    background-color: $white;
     .portfolio-link {
       position: relative;
       display: block;
@@ -17,9 +11,6 @@
       cursor: pointer;
       .img-fluid {
         /*min-height: 262.5px;*/ 
-        border-radius: $border-radius--portfolio-item;
-        -webkit-clip-path: $main-img-slant;
-        clip-path: $main-img-slant;
       }
       .portfolio-hover {
         position: absolute;
@@ -58,7 +49,6 @@
       padding: 25px;
       text-align: center;
       background-color: $white;
-      border-radius:$border-radius;
       h4 {
         margin: 0;
         text-transform: none;
