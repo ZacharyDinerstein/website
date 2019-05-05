@@ -8,6 +8,7 @@
     margin: 0 0 15px;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
+    background-color: $white;
     .portfolio-link {
       position: relative;
       display: block;
@@ -17,6 +18,8 @@
       .img-fluid {
         /*min-height: 262.5px;*/ 
         border-radius: $border-radius--portfolio-item;
+        -webkit-clip-path: $main-img-slant;
+        clip-path: $main-img-slant;
       }
       .portfolio-hover {
         position: absolute;
