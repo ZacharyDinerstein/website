@@ -13,3 +13,25 @@ header.masthead {
     background-position: center -58px;
   }
 }
+
+.fixed-top {
+  z-index: 3;
+}
+
+.lightbox--1ffc {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  z-index: 3;
+	align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+  &.flex {
+    display: flex;
+  }
+  video {
+    width: 50vw;
+  }
+}

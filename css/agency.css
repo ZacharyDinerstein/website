@@ -3,6 +3,7 @@
 /*SHADOWS*/
 /*FONTS*/
 /*POLYGON*/
+/*BORDERS*/
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -504,5 +505,36 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
+header.masthead::after {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/storm-trooper.jpg");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center -58px; }
+
+.fixed-top {
+  z-index: 3; }
+
+.lightbox--1ffc {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .lightbox--1ffc.flex {
+    display: flex; }
+  .lightbox--1ffc video {
+    width: 50vw; }
 
 /*# sourceMappingURL=agency.css.map */
