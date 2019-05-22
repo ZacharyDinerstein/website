@@ -18,6 +18,11 @@ header.masthead {
   z-index: 3;
 }
 
+.modal-backdrop.fade.show {
+  z-index: 3;
+}
+
+
 .lightbox--1ffc {
   position: fixed;
   width: 100vw;
