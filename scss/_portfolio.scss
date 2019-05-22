@@ -121,7 +121,7 @@
     }
     .lr {
       /* Safari and Chrome */
-      z-index: 1051;
+      z-index: 1;
       width: 1px;
       height: 75px;
       margin-left: 35px;
@@ -132,7 +132,7 @@
       background-color: $gray-900;
       .rl {
         /* Safari and Chrome */
-        z-index: 1052;
+        z-index: 1;
         width: 1px;
         height: 75px;
         /* IE 9 */

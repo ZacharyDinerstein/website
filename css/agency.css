@@ -263,7 +263,7 @@ header.masthead {
       opacity: 0.3; }
     .portfolio-modal .close-modal .lr {
       /* Safari and Chrome */
-      z-index: 1051;
+      z-index: 1;
       width: 1px;
       height: 75px;
       margin-left: 35px;
@@ -274,7 +274,7 @@ header.masthead {
       background-color: #212529; }
       .portfolio-modal .close-modal .lr .rl {
         /* Safari and Chrome */
-        z-index: 1052;
+        z-index: 1;
         width: 1px;
         height: 75px;
         /* IE 9 */
@@ -328,7 +328,7 @@ header.masthead {
         border-left-width: 0; }
     .timeline > li .timeline-image {
       position: absolute;
-      z-index: 100;
+      z-index: 1;
       left: 0;
       width: 80px;
       height: 80px;
