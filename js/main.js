@@ -1,7 +1,7 @@
 (function(){
 
     // Open a video player when the user clicks the 'Video' button
-    const createLightboxFunctionality = () => {
+    const makeLightboxesFunctional = () => {
         let vidBtns = document.querySelectorAll('.btn--open-vid');
         
         // Open lightbox when any video button's clicked
@@ -11,15 +11,19 @@
                 let lightbox = document.getElementById(`lightbox-${vidName}`);
                 let video = document.getElementById(`demo-video-${vidName}`);
 
+                console.log(`${vidName}`);
+                console.log(lightbox);
+                console.log(video);
+
                 lightbox.classList.add('flex');
-                createLightboxCloseFunctionality(lightbox, video);
+                allowLightboxToClose(lightbox, video);
             }
         });
     }
     
-    const createLightboxCloseFunctionality = (lightbox, video) => {
-        console.log(lightbox);
-        console.log(video);
+    const allowLightboxToClose = (lightbox, video) => {
+        // console.log(lightbox);
+        // console.log(video);
 
         // Close lightbox when user clicks outside of video
         lightbox.onclick = function(e) {
@@ -32,5 +36,5 @@
             }
         }
     }
-    createLightboxFunctionality();
+    makeLightboxesFunctional();
 })();
