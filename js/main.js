@@ -4,15 +4,16 @@ const createLightboxFunctionality = () => {
     let lightbox = document.getElementById('lightbox');
     let video = document.getElementById('demo-video');
 
-    // Open lightbox when button's clicked
+    // Open lightbox when any video button's clicked
     vidBtns.forEach(function(vidBtn){
-        vidBtn.onclick = function(e) {
-            lightbox.classList.add('flex');
+        vidBtn.onclick = function() {
+            openCorrectVid(this, video);
+            // lightbox.classList.add('flex');
         }
     });
 
     // Close lightbox when user clicks outside of video
-    lightbox.onclick = function (e) {
+    lightbox.onclick = function(e) {
         if (e.target != video){
             console.log('You clicked outside the video');
             video.pause();
@@ -21,6 +22,17 @@ const createLightboxFunctionality = () => {
             console.log('You clicked inside the video');
         }
     }
+}
+
+const openCorrectVid = (elem, video) => {
+    let vidName = elem.dataset.videoToOpen;
+    let sources = video.children;
+
+    for (let source of sources){
+        let path = `video/${vidName}/${vidName}.mp4`
+        path = "hi";
+        source.src = path;
+    };
 }
 
 createLightboxFunctionality();
