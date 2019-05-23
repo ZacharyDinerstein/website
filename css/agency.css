@@ -151,8 +151,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 250px;
+    padding-bottom: 250px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
@@ -222,6 +222,8 @@ header.masthead {
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 #portfolio * {
   z-index: 2; }
+#portfolio .portfolio-items-container {
+  margin-top: -9em; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {

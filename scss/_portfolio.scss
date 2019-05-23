@@ -65,7 +65,9 @@
   * {
     z-index: 2;
   }
-  
+  .portfolio-items-container {
+    margin-top: -9em;
+  }
 }
 @media(min-width:767px) {
   #portfolio {
@@ -153,3 +155,5 @@
     margin-bottom: 1.5rem;
   }
 }
+
+
