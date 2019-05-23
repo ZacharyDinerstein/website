@@ -1,13 +1,15 @@
 // Open a video player when the user clicks the 'Video' button
 const createLightboxFunctionality = () => {
-    let vidBtn = document.getElementById('1ffc-vid--open');
-    let lightbox = document.getElementById('lightbox--1ffc');
-    let video = document.getElementById('1ffc-video');
+    let vidBtns = document.querySelectorAll('.btn--open-vid');
+    let lightbox = document.getElementById('lightbox');
+    let video = document.getElementById('demo-video');
 
     // Open lightbox when button's clicked
-    vidBtn.onclick = function () {
-        lightbox.classList.add('flex');
-    }
+    vidBtns.forEach(function(vidBtn){
+        vidBtn.onclick = function(e) {
+            lightbox.classList.add('flex');
+        }
+    });
 
     // Close lightbox when user clicks outside of video
     lightbox.onclick = function (e) {

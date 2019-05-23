@@ -27,16 +27,22 @@ header.masthead {
 }
 
 
-.lightbox--1ffc {
+.lightbox {
   position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0px;
+  left: 0px;
   z-index: 4;
 	align-items: center;
   justify-content: center;
   background-color: rgba(0,0,0,.8);
   display: none;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+  -webkit-transform: none;
+  transform: none;
   &.flex {
     display: flex;
   }
