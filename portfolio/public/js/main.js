@@ -1,4 +1,8 @@
 (function(){
+    alert('yo');
+
+    let elem = document.getElementById('body')
+    console.log(elem);
 
     // Open a video player when the user clicks the 'Video' button
     const makeLightboxesFunctional = () => {
@@ -14,6 +18,7 @@
                 console.log(`${vidName}`);
                 console.log(lightbox);
                 console.log(video);
+
 
                 lightbox.classList.add('flex');
                 allowLightboxToClose(lightbox, video);

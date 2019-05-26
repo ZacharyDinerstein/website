@@ -324,7 +324,7 @@ function App() {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">Earthquakes</h2>
                     <p className="item-intro text-muted">General Assembly Project</p>
-                    <a target="_blank" href="http://zacharydinerstein.github.io/Earthquakes/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://zacharydinerstein.github.io/Earthquakes/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/earthquake-full.png"
                         alt="" />
                     </a>
@@ -338,7 +338,7 @@ function App() {
                       <li>Partners: Serge Thompson</li>
                       <li>Languages Used: D3.js</li>
                     </ul>
-                    <a target="_blank" href="http://zacharydinerstein.github.io/Earthquakes/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://zacharydinerstein.github.io/Earthquakes/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -365,7 +365,7 @@ function App() {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">Quiz Launching Web App</h2>
                     <p className="item-intro text-muted">Glamour Magazine</p>
-                    <a target="_blank"
+                    <a target="_blank" rel="noopener noreferrer"
                       href="https://www.youtube.com/watch?v=v4evs27gIHc&list=UU9NJfFiEBSOGB-k7DZ-RGmw">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/glamour-thumbnail-2.png"
                         alt="" />
@@ -381,9 +381,9 @@ function App() {
                       {/* <!-- <li>Client: Explore</li> --> */}
                       {/* <!-- <li>Partners: Serge Thompson</li> --> */}
                     </ul>
-                    <a target="_blank"
+                    <a target="_blank" rel="noopener noreferrer"
                       href="ttps://www.youtube.com/watch?v=v4evs27gIHc&list=UU9NJfFiEBSOGB-k7DZ-RGmw">
-                      <img className="img-fluid d-block mx-auto" />
+                      <img className="img-fluid d-block mx-auto" alt="" />
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -410,7 +410,7 @@ function App() {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">Portfolio Website</h2>
                     <p className="item-intro text-muted">The Heart</p>
-                    <a target="_blank" href="https://www.theheartradio.org/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.theheartradio.org/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/the-heart-2.png" alt="" />
                     </a>
                     <p>The Heart is a Peabody-Award-nominated podcast.</p>
@@ -422,7 +422,7 @@ function App() {
                       <li>Built: June 2016</li>
                       <li>Created using Squarespace's development tools</li>
                     </ul>
-                    <a target="_blank" href="https://www.theheartradio.org/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.theheartradio.org/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -449,7 +449,7 @@ function App() {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">Website Redesign</h2>
                     <p className="item-intro text-muted">First Franklin Financial</p>
-                    <a target="_blank" href="http://landing.1ffc.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://landing.1ffc.com/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/1ffc-lp.png" alt="" />
                     </a>
                     <p>First Franklin Financial is a client of Ai Media Group, where I work as a frontend
@@ -462,12 +462,12 @@ function App() {
                       <li>Launched: July 2018</li>
                       <li>Languages: PHP, Bootstrap, Sass, Gitlab</li>
                     </ul>
-                    <a target="_blank" href="http://landing.1ffc.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://landing.1ffc.com/">
                       <button className="btn btn-primary" type="button">Project URL</button>
                     </a>
                     <button className="btn btn-primary btn--open-vid" type="button"
                       data-video-to-open="1ffc">Video</button>
-                    <a target="_blank" href="https://github.com/ZacharyDinerstein/1ffc">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ZacharyDinerstein/1ffc">
                       <button className="btn btn-primary" type="button">Github</button>
                     </a>
                   </div>
@@ -562,7 +562,7 @@ function App() {
                     <h2 className="text-uppercase">Rails Portfolio Pieces</h2>
                     <p className="item-intro text-muted">CodeCademy</p>
                     {/* <!-- <video src="video/ccs/cccs-full-screen.mov"></video> --> */}
-                    <a target="_blank" href="https://sleepy-depths-39467.herokuapp.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://sleepy-depths-39467.herokuapp.com/">
                       <img className="img-fluid d-block mx-auto"
                         src="./img/portfolio/rails-tutorial-portfolio.png" alt="" />
                     </a>
@@ -581,7 +581,7 @@ function App() {
                       <li>Built: March 2019</li>
                       <li>Languages: Rails, Bootstrap, PostgreSQL, Sass, BEM</li>
                     </ul>
-                    <a target="_blank" href="https://sleepy-depths-39467.herokuapp.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://sleepy-depths-39467.herokuapp.com/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -630,10 +630,10 @@ function App() {
                       <li>Built: February 2019</li>
                       <li>Languages: Sass, BEM, Bootstrap, Gitlab</li>
                     </ul>
-                    <a target="_blank" href="https://zacharydinerstein.github.io/granite-transformations/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/granite-transformations/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
-                    <a target="_blank" href="https://github.com/ZacharyDinerstein/granite-transformations">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ZacharyDinerstein/granite-transformations">
                       <button className="btn btn-primary" type="button">Github</button>
                     </a>
                   </div>
@@ -661,10 +661,10 @@ function App() {
                     <p className="item-intro text-muted">Coding Challenge</p>
                     <h4 className="portfolio__section-header">FINISHED SITE</h4>
                     {/* <!-- <video src="video/ccs/cccs-full-screen.mov"></video> --> */}
-                    <a target="_blank" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/promo-2.png" alt="" />
                     </a>
-                    <a target="_blank" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/promo-modal.png" alt="" />
                     </a>
                     <h4 className="portfolio__section-header">Design Sketches</h4>
@@ -690,7 +690,7 @@ function App() {
                       <li>Built: April 2019</li>
                       <li>Languages: Sass, BEM</li>
                     </ul>
-                    <a target="_blank" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/Promo-Tech-Challenge/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -717,7 +717,7 @@ function App() {
                     <h2 className="text-uppercase">StockNewz</h2>
                     <p className="item-intro text-muted">Selina</p>
                     {/* <!-- <video src="video/ccs/cccs-full-screen.mov"></video> --> */}
-                    <a target="_blank" href="https://whispering-anchorage-40451.herokuapp.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://whispering-anchorage-40451.herokuapp.com/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/stocknewz.png" alt="" />
                     </a>
                     <p>This app is the reslut of a fullstack coding challenge from Selina -- a boutique
@@ -735,7 +735,7 @@ function App() {
                       <li>Built: April 2019</li>
                       <li>Languages: Rails, PostgreSQL, Sass, BEM, HTTParty</li>
                     </ul>
-                    <a target="_blank" href="https://whispering-anchorage-40451.herokuapp.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://whispering-anchorage-40451.herokuapp.com/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
@@ -761,7 +761,7 @@ function App() {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">React Card Search</h2>
                     <p className="item-intro text-muted">HoneyBook</p>
-                    <a target="_blank" href="https://zacharydinerstein.github.io/challenge--honeybook-react-app/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/challenge--honeybook-react-app/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/honeybook/honey-book-card-app.png" alt="" />
                     </a>
                     <p>This app is the reslut of a front end coding challenge from HoneyBook -- a content management company for small businesses,
@@ -773,7 +773,7 @@ function App() {
                       <li>Built: April 2019</li>
                       <li>Languages: React, Sass, BEM, Bootstrap</li>
                     </ul>
-                    <a target="_blank" href="https://zacharydinerstein.github.io/challenge--honeybook-react-app/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/challenge--honeybook-react-app/">
                       <button className="btn btn-primary" type="button">Launch Project</button>
                     </a>
                   </div>
