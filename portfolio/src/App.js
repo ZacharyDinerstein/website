@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -799,24 +798,6 @@ function App() {
                   Your browser does not support the video tag.
           </video>
         </div> */}
-
-
-      {/* <!-- Bootstrap core JavaScript --> */}
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      {/* <!-- Plugin JavaScript --> */}
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-      {/* <!-- Contact form JavaScript --> */}
-      <script src="js/jqBootstrapValidation.js"></script>
-      <script src="js/contact_me.js"></script>
-
-      {/* <!-- Custom scripts for this template --> */}
-      <script src="js/agency.min.js"></script>
-
-      {/* <!-- Personal JS --> */}
-      <script src="./js/main.js"></script>
     </div>
   );
 }
