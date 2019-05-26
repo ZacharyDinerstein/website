@@ -1,12 +1,9 @@
 (function(){
-    alert('yo');
-
-    let elem = document.getElementById('body')
-    console.log(elem);
 
     // Open a video player when the user clicks the 'Video' button
     const makeLightboxesFunctional = () => {
         let vidBtns = document.querySelectorAll('.btn--open-vid');
+        console.log(vidBtns);
         
         // Open lightbox when any video button's clicked
         vidBtns.forEach(function(vidBtn){
@@ -41,5 +38,7 @@
             }
         }
     }
-    makeLightboxesFunctional();
+    setTimeout(function(){
+        makeLightboxesFunctional();
+    }, 1000);
 })();

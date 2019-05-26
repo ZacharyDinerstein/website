@@ -784,22 +784,22 @@ function App() {
         </div>
       </div>
 
-      {/* <div id="lightbox-1ffc" className="lightbox">
+      <div id="lightbox-1ffc" className="lightbox">
         <video id="demo-video-1ffc" controls>
-          <source src="video/1ffc/1ffc.mp4" type="video/mp4">
-            <source src="video/1ffc/1ffc.mov" type="video/mov">
-              Your browser does not support the video tag.
-          </video>
-        </div>
-          <div id="lightbox-cccs" className="lightbox">
-            <video id="demo-video-cccs" controls>
-              <source src="video/cccs/cccs.mp4" type="video/mp4">
-                <source src="video/cccs/cccs.mov" type="video/mov">
-                  Your browser does not support the video tag.
-          </video>
-        </div> */}
-    </div>
-    
+          <source src="video/1ffc/1ffc.mp4" type="video/mp4"></source>
+          <source src="video/1ffc/1ffc.mov" type="video/mov"></source>
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <div id="lightbox-cccs" className="lightbox">
+        <video id="demo-video-cccs" controls>
+          <source src="video/cccs/cccs.mp4" type="video/mp4"></source>
+          <source src="video/cccs/cccs.mov" type="video/mov"></source>
+            Your browser does not support the video tag.
+        </video>
+      </div>
+
+    </div>    
   );
 }
           
