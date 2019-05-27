@@ -642,6 +642,10 @@ section#contact :-ms-input-placeholder {
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+section { 
+  padding: 100px 0;
+}
+
 footer {
   padding: 25px 0;
   text-align: center
@@ -687,7 +691,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 header.masthead::after {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs-app/storm-trooper.jpg");
+  background-image: linear-gradient(rgba(255, 175, 162, 0.5), rgba(171, 239, 194, 0.5)), url("./imgs-app/storm-trooper.jpg");
   top: 0;
   left: 0;
   bottom: 0;
