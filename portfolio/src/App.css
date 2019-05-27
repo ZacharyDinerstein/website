@@ -180,8 +180,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px
+  padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -202,8 +202,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width:768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px
+    padding-top: 250px;
+    padding-bottom: 250px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -295,6 +295,10 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
   z-index: 2
+}
+
+#portfolio .portfolio-items-container {
+  margin-top: -9em; 
 }
 
 @media (min-width:767px) {
