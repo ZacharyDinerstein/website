@@ -692,7 +692,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 header.masthead::after {
   content: "";
-  background-image: linear-gradient(rgba(227, 146, 132, 0.5), rgba(130, 216, 216, 0.5)), url(/static/media/storm-trooper.88a7a469.jpg);
+  background-image: linear-gradient(rgba(227, 146, 132, 0.7), rgba(130, 216, 216, 0.5)), url(/static/media/storm-trooper.88a7a469.jpg);
   top: 0;
   left: 0;
   bottom: 0;

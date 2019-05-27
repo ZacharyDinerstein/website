@@ -83,7 +83,7 @@ function App() {
                 <img className="img-fluid" src="./img/portfolio/glamour-thumbnail-2.png" alt="" />
               </a>
               <div className="portfolio-caption">
-                <h4>Quiz Launching Web App</h4>
+                <h4>Quiz Launching App</h4>
                 <p className="text-muted">Glamour Magazine</p>
               </div>
             </div>
