@@ -6,8 +6,6 @@ const App = () => {
   return (
     <div>
       <div id="root"></div>
-
-      {/* <!-- Navigation --> */}
       <Navbar/>
 
       {/* <!-- Header --> */}
