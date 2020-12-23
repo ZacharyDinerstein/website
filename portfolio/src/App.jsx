@@ -5,7 +5,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <div id="root"></div>
+      {/*<div id="root"></div>*/}
       <Navbar/>
 
       {/* <!-- Header --> */}
