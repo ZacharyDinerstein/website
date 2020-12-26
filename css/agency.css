@@ -13,9 +13,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #007bff; }
   a:hover {
-    color: #fec503; }
+    color: #007bff; }
 
 .text-primary {
   color: #fed136 !important; }
@@ -42,6 +42,9 @@ section {
     margin-bottom: 75px;
     text-transform: none;
   }
+video {
+  max-width: 100%;
+  margin-bottom: 30px;}
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
