@@ -39,7 +39,7 @@
         "gulp-rename": "^1.2.2",
         "gulp-sass": "4.0.1",
         "gulp-uglify": "3.0.0",
-        "node-sass": "4.5.0"
+        "node-sass": "4.13.1"
     },
     "scripts": {
         "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
