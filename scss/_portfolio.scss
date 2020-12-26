@@ -80,12 +80,11 @@
 .portfolio-modal {
   padding-right: 0px !important;
   .modal-dialog {
-    margin: 1rem;
-    max-width: 100vw;
+    max-width: 70vw;
+    opacity: .98;
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
