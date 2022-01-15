@@ -446,9 +446,6 @@ const App = () => {
                     </a>
                     <button className="btn btn-primary btn--open-vid" type="button"
                       data-video-to-open="1ffc">Video</button>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ZacharyDinerstein/1ffc">
-                      <button className="btn btn-primary" type="button">Github</button>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -587,15 +584,11 @@ const App = () => {
                     {/* <!-- Project Details Go Here --> */}
                     <h2 className="text-uppercase">Website Redesign</h2>
                     <p className="item-intro text-muted">Granite Transformtions</p>
-                    <a href="https://zacharydinerstein.github.io/granite-transformations/">
                       <img className="img-fluid d-block mx-auto" src="./img/portfolio/granite.png" alt="" />
-                    </a>
                     <div className="row">
                       <div className="col-xs-0 col-md-2"></div>
                       <div className="col-md-8">
-                        <a href="https://zacharydinerstein.github.io/granite-transformations/">
                           <img className="img-fluid d-block mx-auto" src="./img/portfolio/granite-mobile.png" alt="" />
-                        </a>
                       </div>
                     </div>
                     <p>Granite Transformations is a long-running client of Ai Media Group, where I worked as
