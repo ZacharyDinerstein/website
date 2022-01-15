@@ -609,12 +609,6 @@ const App = () => {
                       <li>Built: February 2019</li>
                       <li>Languages: Sass, BEM, Bootstrap, Gitlab</li>
                     </ul>
-                    <a target="_blank" rel="noopener noreferrer" href="https://zacharydinerstein.github.io/granite-transformations/">
-                      <button className="btn btn-primary" type="button">Launch Project</button>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ZacharyDinerstein/granite-transformations">
-                      <button className="btn btn-primary" type="button">Github</button>
-                    </a>
                   </div>
                 </div>
               </div>
